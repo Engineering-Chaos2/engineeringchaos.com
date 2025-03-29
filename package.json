@@ -1,0 +1,40 @@
+{
+  "name": "kanineklans.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --config ./prettier.config.mjs --check '*/*.{ts,tsx,css,json}'",
+    "format:fix": "prettier --config ./prettier.config.mjs --write '*/*.{ts,tsx,css,json}'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^12.6.0",
+    "next": "15.1.1",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-icons": "^5.5.0",
+    "tailwind-clip-path": "^1.0.0",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.1",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
